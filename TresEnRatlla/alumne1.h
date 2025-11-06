@@ -2,10 +2,8 @@
 
 #include <iostream>
 
-const int BOARD_SIZE = 3;
-const char PLAYER_X = 'X';
-const char PLAYER_Y = 'O';
+#include "constants.h"
 
-void drawBoard(const char board[3][3]);
+void drawBoard(const char board[BOARD_SIZE][BOARD_SIZE]);
 void resetBoard(char board[3][3]);
 void makeMove(char board[3][3], char player);

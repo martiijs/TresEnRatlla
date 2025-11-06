@@ -3,6 +3,7 @@
 */
 
 #include "alumne1.h"
+#include "alumne2.h"
 
 using namespace std;
 
@@ -26,5 +27,27 @@ void resetBoard(char board[3][3]) {
 }
 
 void makeMove(char board[3][3], char player) {
+    int row, col;
+    bool validMove = false;
 
+    while (!validMove) {
+        cout << "Jugador " << player << ", introdueix fila i columna (1-3): ";
+        cin >> row >> col;
+
+        row--; col--;
+
+        if (row >= 0 && row < BOARD_SIZE && col >= 0 && col < BOARD_SIZE) {
+            if (board[row][col] == ' ') {
+                board[row][col] = player;
+                validMove = true;
+            }
+            else {
+                cout << "Casella ocupada, Torna-ho a provar.\n";
+            }
+        }
+        else {
+            cout << "Coordenades incorrectes! (1-3)\n";
+        }
+    }
 }
+

@@ -4,6 +4,7 @@
 #include <iostream>
 
 #include "alumne1.h"
+#include "alumne2.h"
 
 using namespace std;
 
@@ -33,9 +34,20 @@ void jugarPartida(char board[3][3]) {
 	char currentPlayer = PLAYER_X; // Jugador que comença
 	char winner = ' ';
 	bool gameOver = false;
+	int turn = 0;
 
 	while (!gameOver) {
 		drawBoard(board);
-		gameOver = true;
+		makeMove(board, currentPlayer);
+		turn++;
+
+		if (turn == BOARD_SIZE * BOARD_SIZE) {
+			gameOver = true;
+		}
+		else {
+
+		}
 	}
+
+	drawBoard(board);
 }
