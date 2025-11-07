@@ -12,6 +12,7 @@ using namespace std;
 // Prototips de funcions
 // --------------------------
 void jugarPartida(char board[3][3]);
+void switchPlayer(char& currentPlayer);
 
 int main()
 {
@@ -45,9 +46,13 @@ void jugarPartida(char board[3][3]) {
 			gameOver = true;
 		}
 		else {
-
+			switchPlayer(currentPlayer);
 		}
 	}
 
 	drawBoard(board);
+}
+
+void switchPlayer(char &currentPlayer) {
+	currentPlayer = (currentPlayer == PLAYER_X) ? PLAYER_Y : PLAYER_X;
 }

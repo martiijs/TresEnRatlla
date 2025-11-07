@@ -23,7 +23,9 @@ void drawBoard(const char board[BOARD_SIZE][BOARD_SIZE]) {
 
 
 void resetBoard(char board[3][3]) {
+    for (int i = 0; i < BOARD_SIZE; i++) {
 
+    }
 }
 
 void makeMove(char board[3][3], char player) {
