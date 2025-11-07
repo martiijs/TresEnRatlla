@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\CFGS1\\Documents\\GitHub\\TresEnRatlla\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|C:\\Users\\CFGS1\\Documents\\GitHub\\TresEnRatlla\\TresEnRatlla\\TresEnRatlla.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|solutionrelative:TresEnRatlla\\TresEnRatlla.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|C:\\Users\\CFGS1\\Documents\\GitHub\\TresEnRatlla\\TresEnRatlla\\alumne2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|solutionrelative:TresEnRatlla\\alumne2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|C:\\Users\\CFGS1\\Documents\\GitHub\\TresEnRatlla\\TresEnRatlla\\alumne2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|solutionrelative:TresEnRatlla\\alumne2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|C:\\Users\\CFGS1\\Documents\\GitHub\\TresEnRatlla\\TresEnRatlla\\alumne1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|solutionrelative:TresEnRatlla\\alumne1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|C:\\Users\\CFGS1\\Documents\\GitHub\\TresEnRatlla\\TresEnRatlla\\TresEnRatlla.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|solutionrelative:TresEnRatlla\\TresEnRatlla.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|C:\\Users\\CFGS1\\Documents\\GitHub\\TresEnRatlla\\TresEnRatlla\\alumne1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,7 +34,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "alumne2.h",
+              "DocumentMoniker": "C:\\Users\\CFGS1\\Documents\\GitHub\\TresEnRatlla\\TresEnRatlla\\alumne2.h",
+              "RelativeDocumentMoniker": "TresEnRatlla\\alumne2.h",
+              "ToolTip": "C:\\Users\\CFGS1\\Documents\\GitHub\\TresEnRatlla\\TresEnRatlla\\alumne2.h",
+              "RelativeToolTip": "TresEnRatlla\\alumne2.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-07T11:40:07.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "alumne2.cpp",
+              "DocumentMoniker": "C:\\Users\\CFGS1\\Documents\\GitHub\\TresEnRatlla\\TresEnRatlla\\alumne2.cpp",
+              "RelativeDocumentMoniker": "TresEnRatlla\\alumne2.cpp",
+              "ToolTip": "C:\\Users\\CFGS1\\Documents\\GitHub\\TresEnRatlla\\TresEnRatlla\\alumne2.cpp",
+              "RelativeToolTip": "TresEnRatlla\\alumne2.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAD0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-07T11:39:12.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "alumne1.h",
               "DocumentMoniker": "C:\\Users\\CFGS1\\Documents\\GitHub\\TresEnRatlla\\TresEnRatlla\\alumne1.h",
               "RelativeDocumentMoniker": "TresEnRatlla\\alumne1.h",
@@ -39,26 +73,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "TresEnRatlla.cpp",
               "DocumentMoniker": "C:\\Users\\CFGS1\\Documents\\GitHub\\TresEnRatlla\\TresEnRatlla\\TresEnRatlla.cpp",
               "RelativeDocumentMoniker": "TresEnRatlla\\TresEnRatlla.cpp",
-              "ToolTip": "C:\\Users\\CFGS1\\Documents\\GitHub\\TresEnRatlla\\TresEnRatlla\\TresEnRatlla.cpp*",
-              "RelativeToolTip": "TresEnRatlla\\TresEnRatlla.cpp*",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAUAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\CFGS1\\Documents\\GitHub\\TresEnRatlla\\TresEnRatlla\\TresEnRatlla.cpp",
+              "RelativeToolTip": "TresEnRatlla\\TresEnRatlla.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-07T10:35:28.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "alumne1.cpp",
               "DocumentMoniker": "C:\\Users\\CFGS1\\Documents\\GitHub\\TresEnRatlla\\TresEnRatlla\\alumne1.cpp",
               "RelativeDocumentMoniker": "TresEnRatlla\\alumne1.cpp",
               "ToolTip": "C:\\Users\\CFGS1\\Documents\\GitHub\\TresEnRatlla\\TresEnRatlla\\alumne1.cpp",
               "RelativeToolTip": "TresEnRatlla\\alumne1.cpp",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAEwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-07T10:35:25.996Z",
               "EditorCaption": ""

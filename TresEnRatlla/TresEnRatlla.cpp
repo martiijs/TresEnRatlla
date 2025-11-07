@@ -16,7 +16,7 @@ void switchPlayer(char& currentPlayer);
 
 int main()
 {
-	char board[BOARD_SIZE][BOARD_SIZE] = { {' ',' ',' '}, {' ',' ',' '}, {' ',' ',' '}};
+	char board[BOARD_SIZE][BOARD_SIZE] = { {' ',' ',' '}, {' ',' ',' '}, {' ',' ',' '} };
 	char resposta = 's';
 
 	do {
@@ -32,7 +32,7 @@ int main()
 }
 
 void jugarPartida(char board[3][3]) {
-	char currentPlayer = PLAYER_X; // Jugador que comença
+	char currentPlayer = PLAYER_X; // Jugador que inicia
 	char winner = ' ';
 	bool gameOver = false;
 	int turn = 0;
@@ -68,9 +68,30 @@ void jugarPartida(char board[3][3]) {
 		}
 	}
 
-	drawBoard(board);
+	// Comprova victoria
+	if (checkVictory(board, currentPlayer)) {
+		drawBoard(board);
+		cout << "\nEl jugador " << currentPlayer << " ha guanyat!\n";
+		updateScore(currentPlayer); // actualitza el marcador
+		gameOver = true;
+	}
+	else if (checkDraw(board)) {
+		drawBoard(board);
+		cout << "\nEmpat!\n";
+		updateScore(' '); // passem espai per indicar empat
+		gameOver = true;
+	}
+	else {
+		switchPlayer(currentPlayer);
+	}
+
+	// Pregunta si vol tornar a jugar
+	if (!askPlayAgain()) {
+		cout << "\nGracies per jugar! \n";
+		exit(0);
+	}
 }
 
-void switchPlayer(char &currentPlayer) {
+void switchPlayer(char& currentPlayer) {
 	currentPlayer = (currentPlayer == PLAYER_X) ? PLAYER_Y : PLAYER_X;
 }
