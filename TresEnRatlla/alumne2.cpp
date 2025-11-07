@@ -5,21 +5,32 @@
 
 using namespace std;
 
-// Comprova si el jugador ha guanyat
+// Codis de color ANSI
+#define RESET   "\033[0m"
+#define RED     "\033[31m"
+#define GREEN   "\033[32m"
+#define YELLOW  "\033[33m"
+#define CYAN    "\033[36m"
+#define BOLD    "\033[1m"
+
+// Variables globals per mantenir el marcador entre partides. TODO: buscar una alternativa millor a variables globals
+int scoreX = 0;
+int scoreO = 0;
+int draws = 0;
+
+
 bool checkVictory(const char board[BOARD_SIZE][BOARD_SIZE], char player) {
-    // Comprovacio de files
-    for (int i = 0; i < BOARD_SIZE; ++i) {
+    // Files
+    for (int i = 0; i < BOARD_SIZE; ++i)
         if (board[i][0] == player && board[i][1] == player && board[i][2] == player)
             return true;
-    }
 
-    //Comprovacio de columnes
-    for (int j = 0; j < BOARD_SIZE; ++j) {
+    // Columnes
+    for (int j = 0; j < BOARD_SIZE; ++j)
         if (board[0][j] == player && board[1][j] == player && board[2][j] == player)
             return true;
-    }
 
-    //Diagonals
+    // Diagonals
     if (board[0][0] == player && board[1][1] == player && board[2][2] == player)
         return true;
     if (board[0][2] == player && board[1][1] == player && board[2][0] == player)
@@ -28,30 +39,25 @@ bool checkVictory(const char board[BOARD_SIZE][BOARD_SIZE], char player) {
     return false;
 }
 
-//Comprova si hi ha empat
+
 bool checkDraw(const char board[BOARD_SIZE][BOARD_SIZE]) {
-    for (int i = 0; i < BOARD_SIZE; ++i) {
-        for (int j = 0; j < BOARD_SIZE; ++j) {
+    for (int i = 0; i < BOARD_SIZE; ++i)
+        for (int j = 0; j < BOARD_SIZE; ++j)
             if (board[i][j] == ' ')
                 return false;
-        }
-    }
     return true;
 }
 
-//Pregunta si es vol tornar a jugar
+
 bool askPlayAgain() {
     char resposta;
-    cout << "\nVols jugar una altra partida? (s/n): ";
+    cout << CYAN << "\nVols jugar una altra partida? (s/n): " << RESET;
     cin >> resposta;
     return (resposta == 's' || resposta == 'S');
 }
 
-void updateScore(char winner) {
-    int scoreX = 0;
-    int scoreO = 0;
-    int draws = 0;
 
+void updateScore(char winner) {
     if (winner == PLAYER_X) {
         scoreX++;
     }
@@ -62,8 +68,8 @@ void updateScore(char winner) {
         draws++;
     }
 
-    cout << "Marcador actual:\n";
-    cout << "   Jugador X: " << scoreX << "\n";
-    cout << "   Jugador O: " << scoreO << "\n";
-    cout << "   Empats:    " << draws << "\n";
+    cout << "\n" << YELLOW << BOLD << "Marcador actual:" << RESET << "\n";
+    cout << "   " << GREEN << "Jugador X: " << BOLD << scoreX << RESET << "\n";
+    cout << "   " << RED << "Jugador O: " << BOLD << scoreO << RESET << "\n";
+    cout << "   " << CYAN << "Empats:    " << BOLD << draws << RESET << "\n";
 }
