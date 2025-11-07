@@ -37,6 +37,8 @@ void jugarPartida(char board[3][3]) {
 	bool gameOver = false;
 	int turn = 0;
 
+	resetBoard(board);
+
 	while (!gameOver) {
 		drawBoard(board);
 		makeMove(board, currentPlayer);
