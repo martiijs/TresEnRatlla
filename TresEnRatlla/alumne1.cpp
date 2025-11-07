@@ -2,6 +2,8 @@
 	Gestio del tauler i interaccio
 */
 
+#include <ctime>
+
 #include "alumne1.h"
 #include "alumne2.h"
 
@@ -52,5 +54,46 @@ void makeMove(char board[3][3], char player) {
             cout << "Coordenades incorrectes! (1-3)\n";
         }
     }
+}
+
+void computerMove(char board[BOARD_SIZE][BOARD_SIZE], char player) {
+    srand(time(0));
+    int row, col;
+    bool validMove = false;
+
+    while (!validMove) {
+        row = rand() % BOARD_SIZE;
+        col = rand() % BOARD_SIZE;
+
+        if (board[row][col] == ' ') {
+            board[row][col] = player;
+            validMove = true;
+        }
+    }
+}
+
+bool gameMode() {
+    char resposta;
+    bool respostaValida = false;
+
+    while (!respostaValida) {
+        cout << "Vols jugar contra l'ordinador? (s/n)";
+        cin >> resposta;
+
+        if (resposta == 's' || resposta == 'S') {
+            respostaValida = true;
+
+            return true;
+        }
+        else if (resposta == 'n' || resposta == 'N') {
+            respostaValida = false;
+
+            return false;
+        }
+        else {
+            cout << "Opcio no valida. Introdueix 's' o 'n'";
+        }
+    }
+    return false;
 }
 

@@ -36,14 +36,30 @@ void jugarPartida(char board[3][3]) {
 	char winner = ' ';
 	bool gameOver = false;
 	int turn = 0;
+	bool vsComputer = gameMode();
 
 	resetBoard(board);
 
 	while (!gameOver) {
 		drawBoard(board);
-		makeMove(board, currentPlayer);
+
+		if (currentPlayer == PLAYER_X) {
+			makeMove(board, currentPlayer);
+		}
+		else {
+			if (vsComputer) {
+				cout << "Moviment de l'ordinador: ";
+
+				computerMove(board, currentPlayer); // juga l'ordinador
+			}
+			else {
+				makeMove(board, currentPlayer); // juga l'huma
+			}
+		}
+
 		turn++;
 
+		// TODO: Comprovar guanyador aqui
 		if (turn == BOARD_SIZE * BOARD_SIZE) {
 			gameOver = true;
 		}
