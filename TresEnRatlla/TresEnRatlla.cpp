@@ -31,12 +31,14 @@ int main()
 
     cout << CYAN << BOLD << "\n===== BENVINGUT A TRES EN RATLLA =====\n" << RESET;
 
-    do {
-        jugarPartida(board);
+    //do {
+    //    jugarPartida(board);
 
-        cout << "\nVols jugar una altra partida? (s/n): ";
-        cin >> resposta;
-    } while (resposta == 's' || resposta == 'S');
+    //    cout << "\nVols jugar una altra partida? (s/n): ";
+    //    cin >> resposta;
+    //} while (resposta == 's' || resposta == 'S');
+
+    jugarPartida(board);
 
     cout << GREEN << "\nGràcies per jugar!\n" << RESET;
 }
