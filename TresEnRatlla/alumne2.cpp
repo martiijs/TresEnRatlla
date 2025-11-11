@@ -13,12 +13,6 @@ using namespace std;
 #define CYAN    "\033[36m"
 #define BOLD    "\033[1m"
 
-// Variables globals per mantenir el marcador entre partides. TODO: buscar una alternativa millor a variables globals
-int scoreX = 0;
-int scoreO = 0;
-int draws = 0;
-
-
 bool checkVictory(const char board[BOARD_SIZE][BOARD_SIZE], char player) {
     // Files
     for (int i = 0; i < BOARD_SIZE; ++i)
@@ -39,7 +33,6 @@ bool checkVictory(const char board[BOARD_SIZE][BOARD_SIZE], char player) {
     return false;
 }
 
-
 bool checkDraw(const char board[BOARD_SIZE][BOARD_SIZE]) {
     for (int i = 0; i < BOARD_SIZE; ++i)
         for (int j = 0; j < BOARD_SIZE; ++j)
@@ -48,28 +41,19 @@ bool checkDraw(const char board[BOARD_SIZE][BOARD_SIZE]) {
     return true;
 }
 
-
-bool askPlayAgain() {
-    char resposta;
-    cout << CYAN << "\nVols jugar una altra partida? (s/n): " << RESET;
-    cin >> resposta;
-    return (resposta == 's' || resposta == 'S');
-}
-
-
-void updateScore(char winner) {
+void updateScore(char winner, Score &marcador) {
     if (winner == PLAYER_X) {
-        scoreX++;
+        marcador.x++;
     }
     else if (winner == PLAYER_Y) {
-        scoreO++;
+        marcador.o;
     }
     else {
-        draws++;
+        marcador.draws++;
     }
 
     cout << "\n" << YELLOW << BOLD << "Marcador actual:" << RESET << "\n";
-    cout << "   " << GREEN << "Jugador X: " << BOLD << scoreX << RESET << "\n";
-    cout << "   " << RED << "Jugador O: " << BOLD << scoreO << RESET << "\n";
-    cout << "   " << CYAN << "Empats:    " << BOLD << draws << RESET << "\n";
+    cout << "   " << GREEN << "Jugador X: " << BOLD << marcador.x << RESET << "\n";
+    cout << "   " << RED << "Jugador O: " << BOLD << marcador.o << RESET << "\n";
+    cout << "   " << CYAN << "Empats:    " << BOLD << marcador.draws << RESET << "\n";
 }
