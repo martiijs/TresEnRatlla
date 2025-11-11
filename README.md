@@ -11,7 +11,7 @@ Aquest projecte implementa el joc de "Tres En Ratlla" (també conegut com a "Tic
 - El programa permet jugar una partida completa i detecta situacions de victòria o empat.
 
 ## Esquema del disseny descendent
-
+![](/disseny-descendent.png)
 
 ## Repartiment de tasques
 - Marti Juncà:
