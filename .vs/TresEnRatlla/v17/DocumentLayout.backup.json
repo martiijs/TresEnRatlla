@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\AluCiclesGS1\\PBP\\0485 - Programacio\\CPP\\TresEnRatlla\\",
+  "WorkspaceRootPath": "E:\\AluCiclesGS2\\MJS\\PROG2\\TresEnRatlla\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|D:\\AluCiclesGS1\\PBP\\0485 - Programacio\\CPP\\TresEnRatlla\\TresEnRatlla\\TresEnRatlla.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|solutionrelative:TresEnRatlla\\TresEnRatlla.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|D:\\AluCiclesGS1\\PBP\\0485 - Programacio\\CPP\\TresEnRatlla\\TresEnRatlla\\alumne2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|E:\\AluCiclesGS2\\MJS\\PROG2\\TresEnRatlla\\TresEnRatlla\\alumne2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|solutionrelative:TresEnRatlla\\alumne2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|D:\\AluCiclesGS1\\PBP\\0485 - Programacio\\CPP\\TresEnRatlla\\TresEnRatlla\\alumne1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|E:\\AluCiclesGS2\\MJS\\PROG2\\TresEnRatlla\\TresEnRatlla\\TresEnRatlla.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|solutionrelative:TresEnRatlla\\TresEnRatlla.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|E:\\AluCiclesGS2\\MJS\\PROG2\\TresEnRatlla\\TresEnRatlla\\alumne1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|solutionrelative:TresEnRatlla\\alumne1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|D:\\AluCiclesGS1\\PBP\\0485 - Programacio\\CPP\\TresEnRatlla\\TresEnRatlla\\alumne1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|E:\\AluCiclesGS2\\MJS\\PROG2\\TresEnRatlla\\TresEnRatlla\\alumne1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|solutionrelative:TresEnRatlla\\alumne1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|D:\\AluCiclesGS1\\PBP\\0485 - Programacio\\CPP\\TresEnRatlla\\TresEnRatlla\\alumne2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|E:\\AluCiclesGS2\\MJS\\PROG2\\TresEnRatlla\\TresEnRatlla\\alumne2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F22C041F-89C0-4FD8-9370-6BD1AABBAB2D}|TresEnRatlla\\TresEnRatlla.vcxproj|solutionrelative:TresEnRatlla\\alumne2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -30,41 +30,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "alumne2.h",
-              "DocumentMoniker": "D:\\AluCiclesGS1\\PBP\\0485 - Programacio\\CPP\\TresEnRatlla\\TresEnRatlla\\alumne2.h",
-              "RelativeDocumentMoniker": "TresEnRatlla\\alumne2.h",
-              "ToolTip": "D:\\AluCiclesGS1\\PBP\\0485 - Programacio\\CPP\\TresEnRatlla\\TresEnRatlla\\alumne2.h",
-              "RelativeToolTip": "TresEnRatlla\\alumne2.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-07T11:40:07.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "alumne2.cpp",
-              "DocumentMoniker": "D:\\AluCiclesGS1\\PBP\\0485 - Programacio\\CPP\\TresEnRatlla\\TresEnRatlla\\alumne2.cpp",
-              "RelativeDocumentMoniker": "TresEnRatlla\\alumne2.cpp",
-              "ToolTip": "D:\\AluCiclesGS1\\PBP\\0485 - Programacio\\CPP\\TresEnRatlla\\TresEnRatlla\\alumne2.cpp",
-              "RelativeToolTip": "TresEnRatlla\\alumne2.cpp",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDAAAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "alumne1.cpp",
+              "DocumentMoniker": "E:\\AluCiclesGS2\\MJS\\PROG2\\TresEnRatlla\\TresEnRatlla\\alumne1.cpp",
+              "RelativeDocumentMoniker": "TresEnRatlla\\alumne1.cpp",
+              "ToolTip": "E:\\AluCiclesGS2\\MJS\\PROG2\\TresEnRatlla\\TresEnRatlla\\alumne1.cpp",
+              "RelativeToolTip": "TresEnRatlla\\alumne1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-07T11:39:12.713Z",
+              "WhenOpened": "2025-11-07T10:35:25.996Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "alumne1.h",
-              "DocumentMoniker": "D:\\AluCiclesGS1\\PBP\\0485 - Programacio\\CPP\\TresEnRatlla\\TresEnRatlla\\alumne1.h",
+              "DocumentMoniker": "E:\\AluCiclesGS2\\MJS\\PROG2\\TresEnRatlla\\TresEnRatlla\\alumne1.h",
               "RelativeDocumentMoniker": "TresEnRatlla\\alumne1.h",
-              "ToolTip": "D:\\AluCiclesGS1\\PBP\\0485 - Programacio\\CPP\\TresEnRatlla\\TresEnRatlla\\alumne1.h",
+              "ToolTip": "E:\\AluCiclesGS2\\MJS\\PROG2\\TresEnRatlla\\TresEnRatlla\\alumne1.h",
               "RelativeToolTip": "TresEnRatlla\\alumne1.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -74,27 +61,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TresEnRatlla.cpp",
-              "DocumentMoniker": "D:\\AluCiclesGS1\\PBP\\0485 - Programacio\\CPP\\TresEnRatlla\\TresEnRatlla\\TresEnRatlla.cpp",
-              "RelativeDocumentMoniker": "TresEnRatlla\\TresEnRatlla.cpp",
-              "ToolTip": "D:\\AluCiclesGS1\\PBP\\0485 - Programacio\\CPP\\TresEnRatlla\\TresEnRatlla\\TresEnRatlla.cpp",
-              "RelativeToolTip": "TresEnRatlla\\TresEnRatlla.cpp",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Title": "alumne2.cpp",
+              "DocumentMoniker": "E:\\AluCiclesGS2\\MJS\\PROG2\\TresEnRatlla\\TresEnRatlla\\alumne2.cpp",
+              "RelativeDocumentMoniker": "TresEnRatlla\\alumne2.cpp",
+              "ToolTip": "E:\\AluCiclesGS2\\MJS\\PROG2\\TresEnRatlla\\TresEnRatlla\\alumne2.cpp",
+              "RelativeToolTip": "TresEnRatlla\\alumne2.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-07T10:35:28.464Z",
+              "WhenOpened": "2025-11-07T11:39:12.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "alumne1.cpp",
-              "DocumentMoniker": "D:\\AluCiclesGS1\\PBP\\0485 - Programacio\\CPP\\TresEnRatlla\\TresEnRatlla\\alumne1.cpp",
-              "RelativeDocumentMoniker": "TresEnRatlla\\alumne1.cpp",
-              "ToolTip": "D:\\AluCiclesGS1\\PBP\\0485 - Programacio\\CPP\\TresEnRatlla\\TresEnRatlla\\alumne1.cpp",
-              "RelativeToolTip": "TresEnRatlla\\alumne1.cpp",
-              "ViewState": "AgIAABwAAAAAAAAAAAApwDsAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "alumne2.h",
+              "DocumentMoniker": "E:\\AluCiclesGS2\\MJS\\PROG2\\TresEnRatlla\\TresEnRatlla\\alumne2.h",
+              "RelativeDocumentMoniker": "TresEnRatlla\\alumne2.h",
+              "ToolTip": "E:\\AluCiclesGS2\\MJS\\PROG2\\TresEnRatlla\\TresEnRatlla\\alumne2.h",
+              "RelativeToolTip": "TresEnRatlla\\alumne2.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-07T11:40:07.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TresEnRatlla.cpp",
+              "DocumentMoniker": "E:\\AluCiclesGS2\\MJS\\PROG2\\TresEnRatlla\\TresEnRatlla\\TresEnRatlla.cpp",
+              "RelativeDocumentMoniker": "TresEnRatlla\\TresEnRatlla.cpp",
+              "ToolTip": "E:\\AluCiclesGS2\\MJS\\PROG2\\TresEnRatlla\\TresEnRatlla\\TresEnRatlla.cpp",
+              "RelativeToolTip": "TresEnRatlla\\TresEnRatlla.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-07T10:35:25.996Z",
+              "WhenOpened": "2025-11-07T10:35:28.464Z",
               "EditorCaption": ""
             }
           ]

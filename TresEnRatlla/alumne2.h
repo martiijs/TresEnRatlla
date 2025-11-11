@@ -1,3 +1,5 @@
+//Alumne2.h
+
 #pragma once
 #include "constants.h"
 
@@ -8,7 +10,7 @@ struct Score {
 	int draws;
 };
 
-// Prototips per a les funcions per comprobar i preguntar
+// Prototips per a les funcions per comprobar la victoria, l'empat i el tauler
 bool checkVictory(const char board[BOARD_SIZE][BOARD_SIZE], char player);
 bool checkDraw(const char board[BOARD_SIZE][BOARD_SIZE]);
 void updateScore(char winner, Score &marcador);

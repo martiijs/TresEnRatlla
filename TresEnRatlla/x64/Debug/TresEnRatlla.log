@@ -1,2 +1,6 @@
 ﻿  TresEnRatlla.cpp
-  TresEnRatlla.vcxproj -> D:\AluCiclesGS1\PBP\0485 - Programacio\CPP\TresEnRatlla\x64\Debug\TresEnRatlla.exe
+  alumne1.cpp
+E:\AluCiclesGS2\MJS\PROG2\TresEnRatlla\TresEnRatlla\alumne1.cpp(68,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  alumne2.cpp
+  Generating Code...
+  TresEnRatlla.vcxproj -> E:\AluCiclesGS2\MJS\PROG2\TresEnRatlla\x64\Debug\TresEnRatlla.exe
